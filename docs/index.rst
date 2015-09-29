@@ -1,8 +1,8 @@
-﻿Cyl.me API документация
-=======================
+Cyl.me API documentation
+========================
 
-Содержание
-----------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
