@@ -11,7 +11,7 @@ Authorization between applications must be implemented using tokens
 
 
 +----------------------------------+-------------------------------------------+
-| succesfull answer                | status: ok                                |
+| successful answer                | status: ok                                |
 |                                  | response: data                            |
 +----------------------------------+-------------------------------------------+
 | conditionally successful answer  | status: ok                                |
