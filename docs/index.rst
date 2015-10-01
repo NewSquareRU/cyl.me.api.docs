@@ -1,16 +1,16 @@
 Cyl.me API documentation
 ========================
 
-
 API for
 
-All responses emitted in JSON format
-API implements HATEOAS
-In all requests when authorization needed token must be provided
-Authorization between applications must be implemented using tokens
-
+- All responses emitted in JSON format
+- API implements HATEOAS
+- In all requests when authorization needed token must be provided
+- Authorization between applications must be implemented using tokens
 
 +----------------------------------+-------------------------------------------+
+| Answer type                      | Response                                  |
++==================================+===========================================+
 | successful answer                | status: ok                                |
 |                                  | response: data                            |
 +----------------------------------+-------------------------------------------+
@@ -30,8 +30,13 @@ Contents
 .. toctree::
    :maxdepth: 2
    
-   points
    users
+   points
+   tasks
+   news
+   skills
+   pointtypes
+   categories
    token
 
 
