@@ -7,6 +7,7 @@ API for
 - API implements HATEOAS
 - In all requests when authorization needed token must be provided
 - Authorization between applications must be implemented using tokens
+- Tokens have different ttl and scope. We have tokens for admins and tokens for users.
 
 +----------------------------------+-------------------------------------------+
 | Answer type                      | Response                                  |
