@@ -1,4 +1,4 @@
-Categories
+﻿Categories
 ==========
 
 Categories list
@@ -25,3 +25,21 @@ Response
 | name              | string     | Category name             |
 +-------------------+------------+---------------------------+
 
+.. code-block:: json
+
+    {
+      "status": "ok",
+      "response":
+        {
+            "categories": [
+                {
+                    "category_id": 1,
+                    "name": "Настольные игры"
+                },
+                {
+                    "category_id": 2,
+                    "name": "Немецкий язык"
+                },
+            ]
+        }
+    }

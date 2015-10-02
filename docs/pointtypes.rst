@@ -29,15 +29,17 @@ Response
     {
       "status": "ok",
       "response":
-        "point_types": [
-            {
-                "point_type_id": 1,
-                "name": "Идея"
-            },
-            {
-                "point_type_id": 2,
-                "name": "Мероприятие"
-            },
-        ]
+        {
+            "point_types": [
+                {
+                    "point_type_id": 1,
+                    "name": "Идея"
+                },
+                {
+                    "point_type_id": 2,
+                    "name": "Мероприятие"
+                },
+            ]
+        }
     }
 
