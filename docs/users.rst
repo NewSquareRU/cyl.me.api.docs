@@ -61,7 +61,7 @@ HATEOAS
 | /skills/?user_id={user_id}      | User's skills        |
 +---------------------------------+----------------------+
 
-Add user
+New user
 --------
 
 /users/{user_id}/

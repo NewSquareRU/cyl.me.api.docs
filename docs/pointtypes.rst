@@ -1,4 +1,4 @@
-Point types
+﻿Point types
 ===========
 
 Point types list
@@ -24,5 +24,20 @@ Response
 | name              | float      | Latitude                  |
 +-------------------+------------+---------------------------+
 
+.. code-block:: json
 
+    {
+      "status": "ok",
+      "response":
+        "point_types": [
+            {
+                "point_type_id": 1,
+                "name": "Идея"
+            },
+            {
+                "point_type_id": 2,
+                "name": "Мероприятие"
+            },
+        ]
+    }
 
