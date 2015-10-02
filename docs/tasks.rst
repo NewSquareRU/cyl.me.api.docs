@@ -21,7 +21,7 @@ Response
 +===================+============+===========================+
 | tasks             | array      |                           |
 +-------------------+------------+---------------------------+
-| Nested in tasks(look single-task-information_)             |
+| Nested in tasks(look task-information_)                    |
 +-------------------+------------+---------------------------+
 
 HATEOAS
@@ -31,8 +31,8 @@ HATEOAS
 +---------------------------------+----------------------+
 
 
-Single task information
------------------------
+Task information
+----------------
 
 /tasks/{task_id}/
 
@@ -86,6 +86,22 @@ Response
 +-------------------+------------+---------------------------+
 | skills            | array      |                           |
 +-------------------+------------+---------------------------+
+
+.. code-block:: json
+
+    {
+      "status": "ok",
+      "response":
+      {
+        "id": 1,
+        "point_id": 10,
+        "title": "I need your help",
+        "description": "I need someone to conduct poll",
+        "lat": 55.42,
+        "long": 33.10,
+      }
+    }
+
 
 HATEOAS
 
@@ -258,11 +274,12 @@ Response
 .. code-block:: json
 
     {
-    status: "ok",
-    response: {
-    result: 1,
-    error: null
-    }
+      "status": "ok",
+      "response":
+      {
+        "result": 1,
+        "error": null
+      }
     }
 
 
@@ -280,4 +297,4 @@ Task owner approves fulfilled task
 ----------------------------------
 
 
-.. _single-task-information:
+.. _task-information:

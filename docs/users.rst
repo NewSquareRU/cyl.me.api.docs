@@ -1,8 +1,8 @@
 Users
 =====
 
-User's information
-------------------
+User information
+----------------
 
 /users/{user_id}/
 
@@ -138,7 +138,7 @@ Input vars
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| Look user's info response data                             |
+| Look user-information_                                     |
 +-------------------+------------+---------------------------+
 
 Response
@@ -181,3 +181,5 @@ Response
 +-------------------+------------+-----------------------------+
 | error             | string     | Not empty if error occurred |
 +-------------------+------------+-----------------------------+
+
+.. _user-information:

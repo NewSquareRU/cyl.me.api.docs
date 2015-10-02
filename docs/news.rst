@@ -26,7 +26,7 @@ Response
 +===================+============+===========================+
 | news              | integer    | Id                        |
 +-------------------+------------+---------------------------+
-| Nested in news(look single news info)                      |
+| Nested in news(look single-news-information_)              |
 +-------------------+------------+---------------------------+
 
 
@@ -124,7 +124,7 @@ Input vars
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| Look news's info response data                             |
+| Look single-news-information_                              |
 +-------------------+------------+---------------------------+
 
 
@@ -167,3 +167,4 @@ Response
 | error             | string     | Not empty if error occurred |
 +-------------------+------------+-----------------------------+
 
+.. _single-news-information:
