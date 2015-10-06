@@ -52,6 +52,32 @@ Response
 +-------------------+------------+---------------------------+
 | avatar            | string     | Link to user avatar       |
 +-------------------+------------+---------------------------+
+| skills            | array      | User skills               |
++-------------------+------------+---------------------------+
+| places            | array      | User places               |
++-------------------+------------+---------------------------+
+
+
+.. code-block:: json
+
+    {
+      "status": "ok",
+      "response":
+        {
+            "id": 4,
+            "name": "Ivan",
+            "family_name": "Sidorov"
+            "places": [
+                {
+                    "lat": 55.33,
+                    "lng": 33.3,
+                    "address": "Moscow, Lenina 1"
+                }
+            ],
+            "skills": [ 1, 6, 18 ]
+        }
+    }
+
 
 HATEOAS
 

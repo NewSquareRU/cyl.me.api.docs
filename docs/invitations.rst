@@ -38,3 +38,26 @@ Response
 +-------------------+------------+---------------------------+
 | used              | 1|0        | Was invitation used       |
 +-------------------+------------+---------------------------+
+
+.. code-block:: json
+
+    {
+      "status": "ok",
+      "response":
+        {
+            "invitations": [
+                {
+                    "id": 1,
+                    "user_id": 4,
+                    "code": "234y234t2udg2u3y4dg23u4vd234yg",
+                    "used": 1
+                },
+                {
+                    "id": 2,
+                    "user_id": 5,
+                    "code": "ertetetertertert44g23u4vd234yg",
+                    "used": 0
+                }
+            ]
+        }
+    }

@@ -72,7 +72,7 @@ Response
 +-------------------+------------+---------------------------+
 | lat               | float      | Latitude                  |
 +-------------------+------------+---------------------------+
-| long              | float      | Longitude                 |
+| lng               | float      | Longitude                 |
 +-------------------+------------+---------------------------+
 | address           | string     | Address                   |
 +-------------------+------------+---------------------------+
@@ -98,7 +98,7 @@ Response
         "title": "I need your help",
         "description": "I need someone to conduct poll",
         "lat": 55.42,
-        "long": 33.10,
+        "lng": 33.10,
       }
     }
 
@@ -180,7 +180,7 @@ Input vars
 +-------------------+------------+---------------------------+
 | lat               | float      | Latitude                  |
 +-------------------+------------+---------------------------+
-| long              | float      | Longitude                 |
+| lng               | float      | Longitude                 |
 +-------------------+------------+---------------------------+
 | address           | string     | Address                   |
 +-------------------+------------+---------------------------+
@@ -224,7 +224,7 @@ Input vars
 +-------------------+------------+---------------------------+
 | lat               | float      | Latitude                  |
 +-------------------+------------+---------------------------+
-| long              | float      | Longitude                 |
+| lng               | float      | Longitude                 |
 +-------------------+------------+---------------------------+
 | address           | string     | Address                   |
 +-------------------+------------+---------------------------+
@@ -307,6 +307,6 @@ User closes task
 
 
 User can close task as unfinished then task changes status to NEW
-
+There are "phase" and "status" for task. We need to discuss how it supposed to work.
 
 .. _task-information:

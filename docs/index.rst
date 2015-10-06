@@ -41,6 +41,7 @@ Contents
    categories
    token
    invitations
+   votes
 
 
 Indices and tables
