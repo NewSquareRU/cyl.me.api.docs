@@ -184,3 +184,7 @@ Response
 | error             | string     | Not empty if error occurred |
 +-------------------+------------+-----------------------------+
 
+
+
+User adds favourite place
+-------------------------

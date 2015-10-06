@@ -35,10 +35,12 @@ Contents
    points
    tasks
    news
+   messages
    skills
    pointtypes
    categories
    token
+   invitations
 
 
 Indices and tables

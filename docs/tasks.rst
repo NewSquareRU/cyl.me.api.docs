@@ -297,4 +297,16 @@ Task owner approves fulfilled task
 ----------------------------------
 
 
+User refuses task
+-----------------
+
+
+User closes task
+----------------
+
+
+
+User can close task as unfinished then task changes status to NEW
+
+
 .. _task-information:

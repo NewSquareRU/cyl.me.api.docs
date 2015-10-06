@@ -1,15 +1,15 @@
-﻿Skills
-======
+Invitations
+===========
 
-Skills list
------------
+User's invitations
+------------------
 
-/skills/
+/invitations/
 
 +------------+------------+
 | method     | GET        |
 +------------+------------+
-| Auth       | NO         |
+| Auth       | YES        |
 +------------+------------+
 
 Input vars
@@ -17,38 +17,24 @@ Input vars
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| user_id           | integer    | Filter skills by user     |
+| user_id           | integer    | User's ID                 |
 +-------------------+------------+---------------------------+
+
 
 Response
 
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| skills            | array      |                           |
+| invitations       | array                                  |
 +-------------------+------------+---------------------------+
-| Nested in skills                                           |
+| Nested in invitations                                      |
 +-------------------+------------+---------------------------+
-| skill_id          | integer    | Skill Id                  |
+| id                | integer    | Invitation Id             |
 +-------------------+------------+---------------------------+
-| name              | string     | Skill name                |
+| user_id           | integer    | User Id                   |
 +-------------------+------------+---------------------------+
-
-.. code-block:: json
-
-    {
-      "status": "ok",
-      "response":
-        {
-            "skills": [
-                {
-                    "skill_id": 1,
-                    "name": "Логотипы"
-                },
-                {
-                    "skill_id": 2,
-                    "name": "Дизайн сайтов"
-                },
-            ]
-        }
-
+| code              | string     | Invitation code           |
++-------------------+------------+---------------------------+
+| used              | 1|0        | Was invitation used       |
++-------------------+------------+---------------------------+
