@@ -1,7 +1,6 @@
 Cyl.me API documentation
 ========================
 
-API for
 
 - All responses emitted in JSON format
 - API implements HATEOAS

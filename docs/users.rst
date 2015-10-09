@@ -1,6 +1,9 @@
 Users
 =====
 
+User authorization handled by **tokens**
+
+
 User information
 ----------------
 
