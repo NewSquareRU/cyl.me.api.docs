@@ -118,6 +118,8 @@ Input user
 +-------------------+------------+---------------------------+
 | avatar            | string     | Link to user avatar       |
 +-------------------+------------+---------------------------+
+| invitation        | string     | Invitation                |
++-------------------+------------+---------------------------+
 
 Parameters
 
@@ -212,5 +214,13 @@ Response
 
 
 
+User favourite places
+---------------------
+
+Coming soon...
+
+
 User adds favourite place
 -------------------------
+
+Coming soon...

@@ -47,6 +47,7 @@ Parameters
 | news_id           | integer    | News ID                   |
 +-------------------+------------+---------------------------+
 
+.. _single-news-information:
 
 Response
 
@@ -167,4 +168,4 @@ Response
 | error             | string     | Not empty if error occurred |
 +-------------------+------------+-----------------------------+
 
-.. _single-news-information:
+

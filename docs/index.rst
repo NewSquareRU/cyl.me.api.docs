@@ -33,15 +33,17 @@ Contents
    
    users
    points
+   pointtypes
    tasks
    news
-   messages
+   im
    skills
-   pointtypes
    categories
    token
    invitations
+   eventtype
    votes
+   scopes
 
 
 Indices and tables

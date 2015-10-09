@@ -1,5 +1,5 @@
-Messages
-========
+Instant messaging
+=================
 
 Messages of user
 ----------------

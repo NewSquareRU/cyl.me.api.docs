@@ -1,10 +1,10 @@
-﻿Point types
+﻿Event types
 ===========
 
 Point types list
 ----------------
 
-/pointtypes/
+/eventtypes/
 
 +------------+------------+
 | method     | GET        |
@@ -15,13 +15,13 @@ Response
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| point_types       | integer    | Id                        |
+| event_types       | integer    | Id                        |
 +-------------------+------------+---------------------------+
-| Nested in point types                                      |
+| Nested in event types                                      |
 +-------------------+------------+---------------------------+
-| point_type_id     | integer    | Point type Id             |
+| event_type_id     | integer    | Event type Id             |
 +-------------------+------------+---------------------------+
-| name              | string     | Point type name           |
+| name              | string     | Event type name           |
 +-------------------+------------+---------------------------+
 
 .. code-block:: json
@@ -30,14 +30,14 @@ Response
       "status": "ok",
       "response":
         {
-            "point_types": [
+            "event_types": [
                 {
-                    "point_type_id": 1,
-                    "name": "Идея"
+                    "event_type_id": 1,
+                    "name": "Выставка"
                 },
                 {
-                    "point_type_id": 2,
-                    "name": "Мероприятие"
+                    "event_type_id": 2,
+                    "name": "Вечеринка"
                 },
             ]
         }

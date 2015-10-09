@@ -43,11 +43,17 @@ Response
             "skills": [
                 {
                     "skill_id": 1,
-                    "name": "Логотипы"
+                    "name": "Дизайн"
                 },
                 {
                     "skill_id": 2,
+                    "parent_id": 1
                     "name": "Дизайн сайтов"
+                },
+                {
+                    "skill_id": 3,
+                    "parent_id": 1
+                    "name": "Логотипы"
                 },
             ]
         }

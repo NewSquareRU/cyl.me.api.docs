@@ -45,8 +45,10 @@ Response
 User gives votes to point
 -------------------------
 
+Coming soon...
+
 
 User gives votes to user
 ------------------------
 
-
+Coming soon...

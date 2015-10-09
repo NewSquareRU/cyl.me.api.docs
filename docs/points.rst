@@ -51,6 +51,7 @@ Parameters
 | point_id          | integer    | Point's ID                |
 +-------------------+------------+---------------------------+
 
+.. _point-information:
 
 Response
 
@@ -72,6 +73,8 @@ Response
 | category_id       | integer    | Category Id               |
 +-------------------+------------+---------------------------+
 | comments_total    | integer    | Total amount of comments  |
++-------------------+------------+---------------------------+
+| draft             | 1 or 0     | Key if point is draft     |
 +-------------------+------------+---------------------------+
 | likes_total       | integer    | Total amount of likes     |
 +-------------------+------------+---------------------------+
@@ -126,8 +129,6 @@ Response
 | date              | timestamp  | Insertion date            |
 +-------------------+------------+---------------------------+
 
-
-.. _new-point:
 
 New point
 ---------
@@ -195,7 +196,7 @@ Input vars
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| Look new-point_ input vars                                 |
+| Look point-information_ input vars                         |
 +-------------------+------------+---------------------------+
 
 
@@ -359,6 +360,6 @@ Input vars
 Add point to favourite
 ----------------------
 
-
+Coming soon...
 
 

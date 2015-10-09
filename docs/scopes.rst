@@ -1,13 +1,15 @@
-﻿Point types
-===========
+﻿Scopes
+======
 
-Point types list
-----------------
+Scopes list
+-----------
 
-/pointtypes/
+/scopes/
 
 +------------+------------+
 | method     | GET        |
++------------+------------+
+| Auth       | NO         |
 +------------+------------+
 
 Response
@@ -15,13 +17,13 @@ Response
 +-------------------+------------+---------------------------+
 | Parameter         | Type       | Description               |
 +===================+============+===========================+
-| point_types       | integer    | Id                        |
+| scopes            | array      |                           |
 +-------------------+------------+---------------------------+
-| Nested in point types                                      |
+| Nested in scopes                                           |
 +-------------------+------------+---------------------------+
-| point_type_id     | integer    | Point type Id             |
+| scope_id          | integer    | Scope Id                  |
 +-------------------+------------+---------------------------+
-| name              | string     | Point type name           |
+| name              | string     | Scope name                |
 +-------------------+------------+---------------------------+
 
 .. code-block:: json
@@ -30,16 +32,15 @@ Response
       "status": "ok",
       "response":
         {
-            "point_types": [
+            "scopes": [
                 {
-                    "point_type_id": 1,
-                    "name": "Идея"
+                    "scope_id": 1,
+                    "name": "Город"
                 },
                 {
-                    "point_type_id": 2,
-                    "name": "Мероприятие"
+                    "scope_id": 2,
+                    "name": "Страна"
                 },
             ]
         }
     }
-

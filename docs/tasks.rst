@@ -288,22 +288,27 @@ Response
 User takes task
 ---------------
 
+Coming soon...
 
 User notifies that task fulfilled
 ---------------------------------
 
+Coming soon...
 
 Task owner approves fulfilled task
 ----------------------------------
 
+Coming soon...
 
 User refuses task
 -----------------
 
+Coming soon...
 
 User closes task
 ----------------
 
+Coming soon...
 
 
 User can close task as unfinished then task changes status to NEW
