@@ -15,14 +15,27 @@ Cyl.me API documentation
 |                                  | response: data                            |
 +----------------------------------+-------------------------------------------+
 | conditionally successful answer  | status: ok                                |
-|                                  | response: { error : "error description" } |
+|                                  | response: { error: "error description",   |
+|                                  |             code:  "error code" }         |
 +----------------------------------+-------------------------------------------+
 | unsuccessful response answer     | status: notOk                             |
 |                                  | error: "error description"                |
+|                                  | code:  "error code"                       |
 +----------------------------------+-------------------------------------------+
 
 All answers are successful except following cases: invalid token, error occurred
  internally in API (for example:database error)
+
+
+Table of error codes
+
++-----------+--------------------------------------------+
+| Code      | Description                                |
++===========+============================================+
+| 1         | Token not specified                        |
+| 2         | Token invalid                              |
++-----------+--------------------------------------------+
+
 
 Contents
 --------
