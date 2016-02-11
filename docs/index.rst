@@ -50,6 +50,10 @@ Table of error codes
 +-----------+--------------------------------------------+
 | 9         | Element not found                          |
 +-----------+--------------------------------------------+
+| 10        | Fields are invalid                         |
++-----------+--------------------------------------------+
+| 11        | Duplicated record                          |
++-----------+--------------------------------------------+
 
 
 Contents
@@ -57,7 +61,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   
+
    users
    points
    pointtypes
@@ -72,6 +76,7 @@ Contents
    votes
    scopes
    storage
+   subscriber
 
 
 Indices and tables
