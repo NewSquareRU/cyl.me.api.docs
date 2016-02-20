@@ -74,6 +74,7 @@ Contents
    invitations
    eventtype
    votes
+   project_mabius
    scopes
    storage
    subscriber
